@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body class="bdy">
+    <div id="container">
+      <div class="header">
+        <h1>General Questions</h1>
+      </div>
+      <ul class="dark_mode">
+        <a href="#"><li>Dark mode</li></a>
+      </ul>
+
+      <div class="question question-one">
+        <div class="tag-label">
+          <p>Do You Accept All Major Credit Cards?</p>
+          <img
+            src="images/icons8-plus-+.svg"
+            class="img"
+            onclick="toggle('one')"
+          />
+        </div>
+
+        <div id="one" class="tag-container-answer">
+          <div class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore
+            illo dolores quia nemo doloribus quaerat, magni numquam repellat
+            reprehenderit.
+          </div>
+        </div>
+      </div>
+
+      <div class="question question-one">
+        <div class="tag-label">
+          <p>Do You Suppport Local Farmers?</p>
+          <img
+            src="images/icons8-plus-+.svg"
+            class="img"
+            onclick="toggle('two')"
+          />
+        </div>
+        <div id="two" class="tag-container-answer">
+          <div class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore
+            illo dolores quia nemo doloribus quaerat, magni numquam repellat
+            reprehenderit.
+          </div>
+        </div>
+      </div>
+
+      <div class="question question-one">
+        <div class="tag-label">
+          <p>Do You Use Organic Ingredients?</p>
+          <img
+            src="images/icons8-plus-+.svg"
+            class="img"
+            onclick="toggle('three')"
+          />
+        </div>
+        <div id="three" class="tag-container-answer">
+          <div class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore
+            illo dolores quia nemo doloribus quaerat, magni numquam repellat
+            reprehenderit.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js">
+    // const acc = document.querySelector(".tag-label");
+
+    // for (i = 0; i < acc.length; i++) {
+    //   acc[i].addEventListener("click", result());
+    //   this.classList.toggle("active");
+
+
+    // }
+  </script>
+</html>
